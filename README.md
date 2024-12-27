@@ -14,17 +14,19 @@ Welcome to the **Terraform AWS Infrastructure Project**! This repository deliver
 
 ---
 
-## 📂 Project Structure  
+## 📚 Project Structure
 
-📦 terraform-aws-infrastructure  
-├── main.tf             # Root configuration integrating all modules  
-├── output.tf           # Outputs for your infrastructure  
-├── modules/            # Modular building blocks  
-│   ├── vpc/            # VPC module  
-│   ├── subnet/         # Subnet module  
-│   ├── ec2/            # EC2 module  
-│   ├── autoscaling/     # Auto Scaling module  
-└── terraform.tfstate    # State file (auto-generated)  
+### 🗂️ Root Files:
+- **`main.tf`** ➔ Root configuration integrating all modules
+- **`output.tf`** ➔ Outputs for your infrastructure
+- **`terraform.tfstate`** ➔ State file (auto-generated)
+
+### 🔧 Modules:
+- **`vpc/`** 🏙️: VPC module
+- **`subnet/`** 🌐: Subnet module
+- **`ec2/`** 💻: EC2 module
+- **`autoscaling/`** 🔁: Auto Scaling module
+  
 
 
 
