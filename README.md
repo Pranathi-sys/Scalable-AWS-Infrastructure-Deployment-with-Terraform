@@ -27,15 +27,6 @@ Welcome to the **Terraform AWS Infrastructure Project**! This repository deliver
 - **`ec2/`** 💻: EC2 module
 - **`autoscaling/`** 🔁: Auto Scaling module
   
-```mermaid
-graph TD;
-    A[VPC (10.0.0.0/16)] --> B[Public Subnet (10.0.0.0/24)]
-    A --> C[Private Subnet (10.0.1.0/24)]
-    B --> D[Internet Gateway]
-    B --> E[Auto Scaling Group (EC2 Instances)]
-    C --> F[EC2 Instances (Private Servers)]
-    C --> G[RDS/Database Instances (Private)]
-```
 ---
 
 ## 🚀 Quick Start  
