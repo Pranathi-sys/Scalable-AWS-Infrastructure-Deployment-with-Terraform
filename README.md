@@ -54,12 +54,14 @@ terraform apply
 ```
 Confirm and watch as your AWS environment comes to life!
 
-📊 **Outputs**
+### 📊 **Outputs**
 
-VPC ID: The ID of your shiny new VPC.
-Subnet ID: The ID of your public subnet.
-Auto Scaling Group Name: Name of the dynamic scaling group.
-Instance ID: Identifier for standalone EC2 instances.
+- **VPC ID**: The ID of your shiny new VPC.
+- **Subnet ID**: The ID of your public subnet.
+- **Auto Scaling Group Name**: Name of the dynamic scaling group.
+- **Instance ID**: Identifier for standalone EC2 instances.
+
+---
 
 🌟 **Customization**
 
