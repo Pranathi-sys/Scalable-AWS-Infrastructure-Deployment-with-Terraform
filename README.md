@@ -53,14 +53,16 @@ Run Terraform to build your infrastructure:
 terraform apply  
 ```
 Confirm and watch as your AWS environment comes to life!
----
+
 📊 **Outputs**
+
 VPC ID: The ID of your shiny new VPC.
 Subnet ID: The ID of your public subnet.
 Auto Scaling Group Name: Name of the dynamic scaling group.
 Instance ID: Identifier for standalone EC2 instances.
----
+
 🌟 **Customization**
+
 
 | Variable          | Description                         | Example                   |
 |-------------------|-------------------------------------|---------------------------|
@@ -69,16 +71,16 @@ Instance ID: Identifier for standalone EC2 instances.
 | subnet_cidr_block | CIDR block for the subnet           | 10.0.1.0/24               |
 | ami               | AMI ID for EC2 instances            | ami-0dee22c13ea7a9a67     |
 | instance_type     | Instance type for EC2               | t2.micro                  |
----
+
 🤖 **Built With:**
 Terraform: Infrastructure as Code (IaC).
 AWS: Cloud infrastructure platform.
----
+
 🎯** Best Practices:**
 🔒 Use environment variables for sensitive credentials.
 📂 Store state remotely (e.g., S3) for collaboration.
 🛡️ Regularly review and restrict security group rules.
----
+
 **✨ Happy Terraforming! ✨**
----
+
 
