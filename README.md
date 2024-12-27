@@ -1,4 +1,4 @@
-**# 🚀 Terraform AWS Infrastructure: Scalable & Modular  
+# 🚀 Terraform AWS Infrastructure: Scalable & Modular  
 
 Welcome to the **Terraform AWS Infrastructure Project**! This repository delivers a production-ready, scalable architecture designed with modularity and efficiency in mind. It provisions a robust environment that includes a custom VPC, public subnet, EC2 instances, and an Auto Scaling group, all powered by Terraform.
 
@@ -78,4 +78,4 @@ AWS: Cloud infrastructure platform.
 
 ✨ Happy Terraforming! ✨
 
-**
+
